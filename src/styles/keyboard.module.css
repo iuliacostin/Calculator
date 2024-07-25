@@ -1,0 +1,21 @@
+.wrapper {
+	display: grid;
+	width: fit-content;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 1rem;
+	padding: 10px;
+}
+
+.screen {
+	width: 4fr;
+	height: 150px;
+	background-color: pink;
+	grid-column: span 4;
+	text-align: right;
+	overflow: hidden;
+}
+
+.screen > h1 {
+	font-family: 'Jost', sans-serif;
+	font-size: 4rem;
+}
